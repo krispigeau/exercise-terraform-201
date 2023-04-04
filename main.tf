@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "KrisCo"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "terraform-github"
     }
   }
 }
